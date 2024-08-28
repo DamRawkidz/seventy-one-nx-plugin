@@ -1,6 +1,6 @@
 import { Routes } from "@angular/router";
 import { <%= classname %>RouterContainerComponent } from "./router/<%= filename %>-router/<%= filename %>-router.container";
-import { <%= classname %>Container } from "./container/<%= filename %>/<%= filename %>.container";
+import { <%= classname %>ContainerComponent } from "./container/<%= filename %>/<%= filename %>.container";
 import { <%= classname %>FormComponent } from "./presenter/<%= filename %>-form/<%= filename %>-form.component";
 
 export const ROUTER: Routes = [
