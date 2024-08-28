@@ -1,0 +1,5 @@
+<div>
+  <app-<%= name %>-search></app-<%= name %>-search>
+  <br>
+  <app-<%= name %>-list></app-<%= name %>-list>
+</div>

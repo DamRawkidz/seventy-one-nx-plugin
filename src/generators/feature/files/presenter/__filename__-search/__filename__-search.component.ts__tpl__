@@ -1,0 +1,13 @@
+import { ChangeDetectionStrategy, Component } from '@angular/core';
+
+@Component({
+  selector: 'lib-<%= filename %>-search',
+  standalone: true,
+  imports: [],
+  templateUrl: './<%= filename %>-search.component.html',
+  styleUrl: './<%= filename %>-search.component.scss',
+  changeDetection: ChangeDetectionStrategy.OnPush
+})
+export class <%= classname %>SearchComponent {
+
+}

@@ -1,0 +1,18 @@
+import { ChangeDetectionStrategy, Component } from '@angular/core';
+
+import { BaseForm } from 'seventy-one-base';
+
+@Component({
+  selector: 'lib-<%= filename %>-form',
+  standalone: true,
+  imports: [],
+  templateUrl: './<%= filename %>-form.component.html',
+  styleUrl: './<%= filename %>-form.component.scss',
+  changeDetection: ChangeDetectionStrategy.OnPush
+})
+export class <%= classname %>FormComponent extends BaseForm {
+
+  override createForm(): any {
+    return this.fb.group({})
+  }
+}

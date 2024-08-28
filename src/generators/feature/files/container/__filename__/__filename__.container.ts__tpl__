@@ -1,0 +1,19 @@
+
+import { ChangeDetectionStrategy, Component } from '@angular/core';
+import { <%= classname %>SearchComponent } from '../../presenter/<%= filename %>-search/<%= name %>-search.component';
+import { <%= classname %>ListComponent } from '../../presenter/<%= filename %>-list/<%= filename %>-list.component';
+
+@Component({
+  selector: 'lib-<%= name %>',
+  standalone: true,
+  imports: [
+    <%= classname %>SearchComponent,
+    <%= classname %>ListComponent
+  ],
+  templateUrl: './<%= name %>.container.html',
+  styleUrl: './<%= name %>.container.scss',
+  changeDetection: ChangeDetectionStrategy.OnPush
+})
+export class <%= classname %>Container {
+
+}
