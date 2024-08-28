@@ -98,3 +98,5 @@ And join the Nx community:
 
 npx nx g generator library-with-readme --directory=src/generators/library-with-readme
 npx nx g se-nx-plugin:feature --flat
+
+npm publish
