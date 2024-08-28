@@ -1,5 +1,5 @@
 <div>
-  <app-<%= name %>-search></app-<%= name %>-search>
+  <lib-<%= name %>-search></lib-<%= name %>-search>
   <br>
-  <app-<%= name %>-list></app-<%= name %>-list>
+  <lib-<%= name %>-list></lib-<%= name %>-list>
 </div>

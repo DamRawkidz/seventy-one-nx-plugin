@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { Lib<%= classname %>Container } from './<%= filename %>.container';
+import { Lib<%= classname %>ContainerComponent } from './<%= filename %>.container';
 
-describe('<%= name %>Container', () => {
-  let component: <%= classname %>Container;
-  let fixture: ComponentFixture<<%= classname %>Container>;
+describe('<%= name %>ContainerComponent', () => {
+  let component: <%= classname %>ContainerComponent;
+  let fixture: ComponentFixture<<%= classname %>ContainerComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [<%= classname %>Container]
+      imports: [<%= classname %>ContainerComponent]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(Lib<%= classname %>Container);
+    fixture = TestBed.createComponent(Lib<%= classname %>ContainerComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
