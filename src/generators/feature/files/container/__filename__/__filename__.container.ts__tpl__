@@ -14,6 +14,6 @@ import { <%= classname %>ListComponent } from '../../presenter/<%= filename %>-l
   styleUrl: './<%= name %>.container.scss',
   changeDetection: ChangeDetectionStrategy.OnPush
 })
-export class <%= classname %>Container {
+export class <%= classname %>ContainerComponent {
 
 }
